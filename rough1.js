@@ -1,7 +1,5 @@
 
-const callfunc=(a,b)=>{
 
-    return a+b;
-}
+let obj= require("./rough2");
 
-module.exports=callfunc();
+console.log(obj.addfucn(2,3));
