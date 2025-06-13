@@ -22,10 +22,10 @@ let Make_Async = async()=> {
     const __dirname = path.dirname(__filename);
     //? console.log(__dirname);//gives regular file path
 
-    
+
     let All_files= fs.readdir(__dirname)    
     .then((data)=>{
-        console.log(data);
+        console.log(data);///Show all files inside the __dirname
     })
 
 
