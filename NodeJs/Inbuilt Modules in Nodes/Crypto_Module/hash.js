@@ -19,7 +19,15 @@ console.log(store_hash);//we get this output
 
 let store_hash_working= crypto.createHash("sha256").update("Password Change").digest("hex");
 
-console.log(store_hash_working);//! f45b0abe1f17e1a850131d1a4e533d185fc5489e6f346e2108fc3e91c5e0f1c0
+let store_1 = crypto.createHash("sha256").update("Rishabh").digest("base64")
+
+let store_2= crypto.createHash("sha256").update("Rishabh").digest("larin1")
+
+console.log(store_hash_working);
+
+
+//! Digest - final output of hsing process 
+// f45b0abe1f17e1a850131d1a4e533d185fc5489e6f346e2108fc3e91c5e0f1c0
 
 //!hash value always same when update is same 
 

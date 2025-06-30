@@ -11,6 +11,9 @@ const server = http.createServer(); //calling method http.createServer also call
 const PORT = 3000;  //Giving The Port Value ---This sets the port number your server will listen on.
 
 
+
+
+
 //? Creating A Server 
 const Server = http.createServer((req, res) => { //inside arrow function passing aargument so it is callback
 
@@ -29,7 +32,7 @@ const Server = http.createServer((req, res) => { //inside arrow function passing
     // res: the outgoing response object.
 
     if (req.url === "/") {  //! req.url === "/": This checks if the client is accessing the home page.
-        res.write("This is The first server I made and This Text Showing BY calling The Server");
+        res.write("hii rishabh This is The first server I made and This Text Showing BY calling The Server now this is update by nodemon ");
         res.end();
     }
 
